@@ -30,6 +30,7 @@ function Todos() {
                     <div className="flex gap-4 flex-wrap">
                         <button onClick={() => handleEdit(todo)} className="text-blue-500 hover:text-blue-700">Edit</button>
                         <button onClick={() => dispatch(removeTodo(todo.id))} className="text-red-500 hover:text-red-700">Delete</button>
+                    {/*  */}
                     </div>
                 </div>
             ))}
